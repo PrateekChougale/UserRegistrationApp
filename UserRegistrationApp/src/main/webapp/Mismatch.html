@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mismatch</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #0d1117;
+            color: #00ffc6;
+            text-align: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #ff4da6;
+            text-shadow: 0 0 10px #ff4da6, 0 0 20px #ff4da6, 0 0 30px #ff4da6;
+            border: 2px solid #ff4da6;
+            padding: 20px;
+            display: inline-block;
+            border-radius: 10px;
+            box-shadow: 0 0 20px #ff4da6, inset 0 0 10px #57002d;
+            animation: glow 1.5s infinite alternate;
+        }
+
+        @keyframes glow {
+            from {
+                box-shadow: 0 0 20px #ff4da6, inset 0 0 10px #57002d;
+            }
+            to {
+                box-shadow: 0 0 30px #ff4da6, inset 0 0 15px #57002d;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Password Do Not Match</h1>
+</body>
+</html>
