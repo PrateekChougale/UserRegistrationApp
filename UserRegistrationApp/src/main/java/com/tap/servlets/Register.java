@@ -30,7 +30,7 @@ public class Register extends HttpServlet{
 		
 		String url="jdbc:mysql://localhost:3306/jdbc";
 		String username="root";
-		String pwd="prateek@123";
+		String pwd="root";
 		
 		try {
 			 Class.forName("com.mysql.cj.jdbc.Driver");
